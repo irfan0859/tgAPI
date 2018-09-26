@@ -7,9 +7,9 @@ https = require "ssl.https"
 redis = require('redis')
 db = redis.connect('127.0.0.1', 6379)
 BASE = '../bot/'
-SUDO = 158955285 --sudo id
-sudo_users = {158955285,180191663,279700027,361871436,userid}
-BOTS = 361871436 --bot id
+SUDO = 465511496 --sudo id
+sudo_users = {465511496,465511496,465511496,465511496,userid}
+BOTS = 570586758 --bot id
 bot_id = db:get(SUDO..'bot_id')
 function vardump(value)
   print(serpent.block(value, {comment=false}))
